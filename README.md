@@ -5,6 +5,7 @@
 - `amh`: inflection tables for Amharic (ISO 639-3 `amh`)
 - `amh.args`: a UniMorph 4.0 compatible verion of `amh`
 - `amh.gloss`: English glosses for the lemmas in `amh`
+- `normalized_data.txt`: normalized inflection tables for Amharic using [amseg](https://pypi.org/project/amseg/)
 - `README.md`: this file
 
 ## Data
