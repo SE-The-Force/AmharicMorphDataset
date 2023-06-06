@@ -5,7 +5,8 @@
 - `amh`: inflection tables for Amharic (ISO 639-3 `amh`)
 - `amh.args`: a UniMorph 4.0 compatible verion of `amh`
 - `amh.gloss`: English glosses for the lemmas in `amh`
-- `normalized_data.txt`: normalized inflection tables for Amharic using [amseg](https://pypi.org/project/amseg/)
+- `normalized_data.txt`: Normalized inflection tables for Amharic using [amseg](https://pypi.org/project/amseg/)
+- `stop_words.txt`: Morphem-based Amharic stopword list for information retrieval from [AmharicResources](https://www.irit.fr/AmharicResources/stop-word-list/)
 - `README.md`: this file
 
 ## Data
@@ -221,5 +222,19 @@ Michael Gasser
     doi = "10.18653/v1/2021.sigmorphon-1.25",
     pages = "229--259",
     abstract = "This year's iteration of the SIGMORPHON Shared Task on morphological reinflection focuses on typological diversity and cross-lingual variation of morphosyntactic features. In terms of the task, we enrich UniMorph with new data for 32 languages from 13 language families, with most of them being under-resourced: Kunwinjku, Classical Syriac, Arabic (Modern Standard, Egyptian, Gulf), Hebrew, Amharic, Aymara, Magahi, Braj, Kurdish (Central, Northern, Southern), Polish, Karelian, Livvi, Ludic, Veps, V{\~o}ro, Evenki, Xibe, Tuvan, Sakha, Turkish, Indonesian, Kodi, Seneca, Ash{\'a}ninka, Yanesha, Chukchi, Itelmen, Eibela. We evaluate six systems on the new data and conduct an extensive error analysis of the systems' predictions. Transformer-based models generally demonstrate superior performance on the majority of languages, achieving {\textgreater}90{\%} accuracy on 65{\%} of them. The languages on which systems yielded low accuracy are mainly under-resourced, with a limited amount of data. Most errors made by the systems are due to allomorphy, honorificity, and form variation. In addition, we observe that systems especially struggle to inflect multiword lemmas. The systems also produce misspelled forms or end up in repetitive loops (e.g., RNN-based models). Finally, we report a large drop in systems' performance on previously unseen lemmas.",
+}
+
+@inproceedings{yeshambel2020Stop,
+
+  title={ Construction of morphem-based Amharic stopword list for information retrieval },
+
+  author={Yeshambel, Tilahun and Mothe, Josiane and Assabie, Yaregal},
+
+  booktitle={ the 8th EAI international conference on advancement of science and technology },
+
+  year={2020},
+
+  organization={Springer}
+
 }
 ```
